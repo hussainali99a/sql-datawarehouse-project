@@ -7,6 +7,7 @@ create table bronze.crm_cust_info(
 	cst_id INT,
 	cst_key Nvarchar(50),
 	cst_firstname Nvarchar(50),
+	cst_lastname Nvarchar(50),
 	cst_material_status Nvarchar(50),
 	cst_gndr Nvarchar(50),
 	cst_create_date date
